@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-f2422f770757408e90f5104f8d29365b" version="5.0.0">
+  <folder name="Strategy" id="id-2d3d0e271fb54ead81a68170b32cdcad" type="strategy"/>
+  <folder name="Business" id="id-97a29841b0b6499c803e9c5a8c2b7880" type="business"/>
+  <folder name="Application" id="id-cb9149ac923d411d8ab5df603375c5b8" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-fc7e60516465477382a7dc959a42499e" type="technology"/>
+  <folder name="Motivation" id="id-9a09295820cf4349899bdb06693a22ff" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-e5d018ae9fa64da2a94c4f9fc7c2029b" type="implementation_migration"/>
+  <folder name="Other" id="id-bdba7f7219d54d6cb5526c9f42a0ede0" type="other"/>
+  <folder name="Relations" id="id-603936c0b40948898855525420420dce" type="relations"/>
+  <folder name="Views" id="id-db4f045be133492591084963012995c3" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-e8e2895e60404724ba98b9c473af1e12">
+      <child xsi:type="archimate:Group" id="id-819ccab7f14c41fa9ece1f404a41a6d1" name="Aktéři" textAlignment="1">
+        <bounds x="36" y="24" width="985" height="85"/>
+        <child xsi:type="archimate:Note" id="id-331b7dfdfd7244039e38067899430f30" textAlignment="1">
+          <bounds x="12" y="24" width="85" height="50"/>
+          <content>Zákazník</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-c358c436c6d948e4a21abd92f224e2e3" textAlignment="1">
+          <bounds x="108" y="24" width="97" height="49"/>
+          <content>IT správce</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-3a4c549567124a5db6f18a4c92b8586e" textAlignment="1">
+          <bounds x="216" y="23" width="97" height="50"/>
+          <content>Manažer</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-35b76ee25aa646cda0c91bbcab5cd345" textAlignment="1">
+          <bounds x="324" y="23" width="145" height="50"/>
+          <content>Správce autoparku</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-4627f70dd8c54b2d81c7df1cde218107" textAlignment="1">
+          <bounds x="480" y="23" width="133" height="49"/>
+          <content>Servisák</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-6e0fe00e62db4416b380a8fcf35a001f" textAlignment="1">
+          <bounds x="624" y="23" width="156" height="49"/>
+          <content>Specialista marketingu</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-41816ad2aae5493c85e4395b880a3a91" textAlignment="1">
+          <bounds x="792" y="23" width="85" height="50"/>
+          <content>Auto</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-93021041883345269ff8ead5e43628ef" textAlignment="1">
+          <bounds x="888" y="24" width="73" height="49"/>
+          <content>Účetní</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-4ba6667522554642b344f87842334ae9" name="Závazky" textAlignment="1">
+        <bounds x="36" y="120" width="673" height="85"/>
+        <child xsi:type="archimate:Note" id="id-64a93291f7484968b8312bfc67df7f3a" textAlignment="1">
+          <bounds x="12" y="24" width="85" height="49"/>
+          <content>Půjčky</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-c839ac1456fe49aea8f012b7b1df1ac3" textAlignment="1">
+          <bounds x="108" y="24" width="85" height="49"/>
+          <content>Pojištění</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-c689218ad10249adb109b430ff7515d0" textAlignment="1">
+          <bounds x="204" y="24" width="109" height="50"/>
+          <content>Nájem prostor</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-a1444e09746f47feac485bcc8598ed45" textAlignment="1">
+          <bounds x="324" y="24" width="145" height="49"/>
+          <content>Platy zaměstnanců</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-917443657f134fdcab797658e6db2b37" textAlignment="1">
+          <bounds x="480" y="24" width="145" height="49"/>
+          <content>Ostatní pohledávky</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-d18001f0352845509e35b7cb5ef509ad" name="Služby" textAlignment="1">
+        <bounds x="36" y="216" width="793" height="85"/>
+        <child xsi:type="archimate:Note" id="id-0543b4355eaa47bfb42b40f351b727af" textAlignment="1">
+          <bounds x="12" y="24" width="171" height="48"/>
+          <content>Zákaznický servis a podpora</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-add2577f971b4488953b177be75e8861" textAlignment="1">
+          <bounds x="192" y="23" width="157" height="49"/>
+          <content>Hodnocení a recenze</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-f82d7cf3952b49f3a7ae4aaff3f5bfcb" textAlignment="1">
+          <bounds x="360" y="23" width="121" height="49"/>
+          <content>Rezervace aut</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-37ece9e2e0934c29905de49b6ac9cbdf" textAlignment="1">
+          <bounds x="492" y="23" width="145" height="49"/>
+          <content>Výdej a vrácení aut</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-d609d5235d604e36b76ac13488bccee6" textAlignment="1">
+          <bounds x="648" y="23" width="121" height="49"/>
+          <content>Věrnostní programy</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-eccbc4b7c35d4be78b3abed3a9dd666a" name="Řízení a správa podniku" textAlignment="1">
+        <bounds x="36" y="312" width="1117" height="85"/>
+        <child xsi:type="archimate:Note" id="id-e3ce93e41a86410e87ac5fe449806bb4" textAlignment="1">
+          <bounds x="12" y="24" width="133" height="49"/>
+          <content>Servis a údržba aut</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-c008dee37a304fdabef275b2e31680ed" textAlignment="1">
+          <bounds x="156" y="24" width="109" height="49"/>
+          <content>Řízení smluv</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-bb730ec435fb4c09899a1b79290d9948" textAlignment="1">
+          <bounds x="276" y="24" width="145" height="49"/>
+          <content>Propagace a reklama</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-e6839fb6c98945538d7f38d83fcf8d7c" textAlignment="1">
+          <bounds x="432" y="24" width="169" height="49"/>
+          <content>Řízení inventáře podniku</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-3b026245821b4a1eb6d49c10c8290fdc" textAlignment="1">
+          <bounds x="612" y="24" width="157" height="49"/>
+          <content>Správa faktur a plateb</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-a7ed7ccb6e8a4d7381f62bb3b1c0164d" textAlignment="1">
+          <bounds x="780" y="24" width="181" height="49"/>
+          <content>Správa poboček a autoparku</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-2b1c1a554cd249f9af67b25b36d0c392" textAlignment="1">
+          <bounds x="972" y="24" width="121" height="49"/>
+          <content>Ověření řidičů</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-2ffe287fb8ca438da102ebede07e221a" name="Aplikace" textAlignment="1">
+        <bounds x="36" y="408" width="913" height="85"/>
+        <child xsi:type="archimate:Note" id="id-e8fc0d74b27e4bbe976d2c83f5eb3339" textAlignment="1">
+          <bounds x="12" y="24" width="120" height="45"/>
+          <content>Databázový systém</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-770cfdfd1ded4cd49a3a8300a446bbcf" textAlignment="1">
+          <bounds x="144" y="24" width="133" height="45"/>
+          <content>Rezervační systém</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-d67271689fa649999ba3b6b7412a5f2f" textAlignment="1">
+          <bounds x="288" y="24" width="121" height="45"/>
+          <content>Účetní software</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-7b0001a35b03419f9d34bd9882f862b6" textAlignment="1">
+          <bounds x="420" y="24" width="181" height="45"/>
+          <content>Aplikace pro sledování vozidel</content>
+        </child>
+        <child xsi:type="archimate:Note" id="id-22945d2d3ed749e8aa8b7317bac0c7b5" textAlignment="1">
+          <bounds x="612" y="24" width="169" height="45"/>
+          <content>Rezervační a platební brána</content>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
