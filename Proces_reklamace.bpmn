@@ -127,7 +127,7 @@
       <bpmn:outgoing>Flow_1ajho56</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_15rdk2g" />
     </bpmn:startEvent>
-    <bpmn:exclusiveGateway id="Gateway_1yqry4l" name="Požadována finanční kompentace?">
+    <bpmn:exclusiveGateway id="Gateway_1yqry4l" name="Požadována finanční kompenzace?">
       <bpmn:incoming>Flow_1ajho56</bpmn:incoming>
       <bpmn:outgoing>Flow_1fpx9tv</bpmn:outgoing>
       <bpmn:outgoing>Flow_02aon7t</bpmn:outgoing>
@@ -340,7 +340,7 @@
       <bpmndi:BPMNShape id="Gateway_1yqry4l_di" bpmnElement="Gateway_1yqry4l" isMarkerVisible="true">
         <dc:Bounds x="1095" y="895" width="50" height="50" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1086" y="845" width="67" height="40" />
+          <dc:Bounds x="1085" y="845" width="69" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0khs7cm_di" bpmnElement="Activity_0khs7cm">
@@ -368,6 +368,10 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1128" y="975" width="15" height="14" />
         </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_03gwq6z_di" bpmnElement="DataOutputAssociation_03gwq6z">
+        <di:waypoint x="1210" y="390" />
+        <di:waypoint x="1210" y="325" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1qv17a4_di" bpmnElement="Flow_1qv17a4">
         <di:waypoint x="480" y="217" />
@@ -398,10 +402,6 @@
       <bpmndi:BPMNEdge id="Flow_04i2utt_di" bpmnElement="Flow_04i2utt">
         <di:waypoint x="1340" y="880" />
         <di:waypoint x="1340" y="217" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="DataOutputAssociation_03gwq6z_di" bpmnElement="DataOutputAssociation_03gwq6z">
-        <di:waypoint x="1210" y="390" />
-        <di:waypoint x="1210" y="325" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
