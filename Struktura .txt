@@ -1,0 +1,10 @@
+Interní:​
+	Marketingové oddělení
+	Finanční oddělení
+	Vývojové oddělení
+	Zákaznický servis
+	HR oddělení
+	Správa vozového parku
+Externí:​
+	Dodavatelé náhradních dílu
+	Autorizované servisy
