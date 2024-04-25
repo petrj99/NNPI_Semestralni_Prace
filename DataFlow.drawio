@@ -1,0 +1,212 @@
+<mxfile host="app.diagrams.net" modified="2024-04-24T13:20:37.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="rhoRzB8vVfpzrV1uifnG" version="24.2.8" type="device">
+  <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-1" value="Zákazník" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-2" value="Rezervace" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-3" value="Webová aplikace" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-4" value="Sytém správy vozového parku" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-5" value="Zaměstnanec" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-7" value="Předání vozu" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-8" value="Vrácení vozu" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="527" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-9" value="Platba" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-10" value="Platební brána" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-11" value="Zákazník" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-12" value="Systém" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XkH28-ER0A_PHMq6cVrZ-13" value="Historie rezervací" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-11" target="XkH28-ER0A_PHMq6cVrZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="587" as="sourcePoint" />
+            <mxPoint x="660" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-3" value="Vytvoření rezervace" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-2">
+          <mxGeometry x="-0.0112" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-7" target="XkH28-ER0A_PHMq6cVrZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="547" as="sourcePoint" />
+            <mxPoint x="610" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-23" value="Převzetí vozu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-5">
+          <mxGeometry x="-0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint x="-39" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-11" target="XkH28-ER0A_PHMq6cVrZ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="387" as="sourcePoint" />
+            <mxPoint x="570" y="337" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-19" value="Vrácení vozu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-6">
+          <mxGeometry x="0.1524" y="1" relative="1" as="geometry">
+            <mxPoint x="-21" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-7" target="XkH28-ER0A_PHMq6cVrZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="387" as="sourcePoint" />
+            <mxPoint x="570" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-1" target="XkH28-ER0A_PHMq6cVrZ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint" />
+            <mxPoint x="300" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-26" value="Provedení platby" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-8">
+          <mxGeometry x="-0.1905" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-9" target="XkH28-ER0A_PHMq6cVrZ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="300" as="sourcePoint" />
+            <mxPoint x="580" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-27" value="Zpracování platby" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-9">
+          <mxGeometry x="-0.2171" y="1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="87" as="sourcePoint" />
+            <mxPoint x="510" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-25" value="Zobrazení historie rezervací" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-11">
+          <mxGeometry x="-0.0196" y="2" relative="1" as="geometry">
+            <mxPoint x="84" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-5" target="XkH28-ER0A_PHMq6cVrZ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="277" as="sourcePoint" />
+            <mxPoint x="400" y="577" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="337" />
+              <mxPoint x="360" y="337" />
+              <mxPoint x="360" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-24" value="Předání vozu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-12">
+          <mxGeometry x="-0.2017" y="-4" relative="1" as="geometry">
+            <mxPoint x="-9" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-8" target="XkH28-ER0A_PHMq6cVrZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="477" as="sourcePoint" />
+            <mxPoint x="900" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-21" value="Aktualizace stavu parku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-14">
+          <mxGeometry x="-0.0286" y="1" relative="1" as="geometry">
+            <mxPoint x="-69" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.833;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-8" target="XkH28-ER0A_PHMq6cVrZ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="517" as="sourcePoint" />
+            <mxPoint x="850" y="534" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-20" value="Převzetí vozu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-15">
+          <mxGeometry x="-0.0573" y="-1" relative="1" as="geometry">
+            <mxPoint x="39" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-12" target="XkH28-ER0A_PHMq6cVrZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="387" as="sourcePoint" />
+            <mxPoint x="570" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-28" value="Poskytnutí dat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-17">
+          <mxGeometry x="0.02" y="-4" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-3" target="XkH28-ER0A_PHMq6cVrZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="570" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-29" value="Zobrazení dat zákazníkovi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-18">
+          <mxGeometry x="0.3111" relative="1" as="geometry">
+            <mxPoint x="70" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XkH28-ER0A_PHMq6cVrZ-2" target="XkH28-ER0A_PHMq6cVrZ-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="587" as="sourcePoint" />
+            <mxPoint x="210" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-31" value="Zavedení rezervace do systému" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-30">
+          <mxGeometry x="0.0889" y="-3" relative="1" as="geometry">
+            <mxPoint x="87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XkH28-ER0A_PHMq6cVrZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="610" as="sourcePoint" />
+            <mxPoint x="200" y="667" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="717" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQiAEHKCcBB-lpJqW_bE-33" value="Aktualizace historie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YQiAEHKCcBB-lpJqW_bE-32">
+          <mxGeometry x="-0.61" y="2" relative="1" as="geometry">
+            <mxPoint x="58" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
