@@ -74,7 +74,7 @@
       <bpmn:incoming>Flow_10vjl1s</bpmn:incoming>
     </bpmn:task>
     <bpmn:sequenceFlow id="Flow_1n9qx25" name="Ano" sourceRef="Gateway_1e3fe3s" targetRef="Activity_06qbxff" />
-    <bpmn:task id="Activity_06qbxff" name="Odeslání požadavku na zaplacení">
+    <bpmn:task id="Activity_06qbxff" name="Odeslání požadavku na zaplacení včetně kauce">
       <bpmn:incoming>Flow_1n9qx25</bpmn:incoming>
       <bpmn:outgoing>Flow_0vhyvrg</bpmn:outgoing>
     </bpmn:task>
